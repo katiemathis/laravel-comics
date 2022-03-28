@@ -4,9 +4,9 @@
     color: #fff;
 }
 
-//.full-footer-container {
-    //position: relative;
-//}
+.full-footer-container {
+    position: relative;
+}
 
 /* shop container
 
@@ -64,7 +64,7 @@
 
 .footer-container {
     @include flex-row-around;
-    background-image: url('../..img/footer-bg.jpg');
+    //background-image: url("../../img/footer-bg.jpg");
     height: 400px;
     margin-top: 50px;
 

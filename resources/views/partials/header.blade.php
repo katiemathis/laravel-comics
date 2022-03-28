@@ -1,6 +1,6 @@
 <div class="header-container">
     <div class="logo">
-        <img alt="Vue logo" src="{{asset('img/dc-logo.png')}}">
+        <a href="/"><img alt="Vue logo" src="{{asset('img/dc-logo.png')}}"></a>
     </div>
     <div class="menu">
         <ul>
