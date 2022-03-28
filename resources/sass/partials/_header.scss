@@ -1,0 +1,40 @@
+.header-container {
+    @include flex-row-around;
+    max-height: 70px;
+      .logo {
+      width: 40%;
+        img {
+          height: 50px;
+          &:hover {
+            height: 55px;
+            cursor: pointer;
+          }
+        }
+
+      }
+      .menu {
+      @include flex-row-around;
+      width: 60%;
+      padding-right: 10%;
+        ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 1em 0 0 0;
+          li {
+            @include li-menu-horizontal;
+            margin: 0 10px;
+            height: 50px;
+            &:hover {
+              border-bottom: $colorBlue solid 2px;
+            }
+            a {
+              color: #000;
+              text-decoration: none;
+              &:hover {
+              color: $colorBlue;
+              }
+            }
+          }
+        }
+      }
+}
