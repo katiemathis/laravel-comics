@@ -47,7 +47,7 @@
         </div>
     </div>
     <div class="footer-right">
-        <img src="../assets/img/dc-logo-bg.png" alt="Big Logo">
+        <img src="{{asset('img/dc-logo-bg.png')}}" alt="Big Logo">
     </div>
 
     <div class="footer-bottom-banner">
@@ -56,11 +56,11 @@
         </div>
         <ul class="menu-row footer-right">
             <li><a href="#" target="_blank" rel="noopener" id="follow">FOLLOW US</a></li>
-            <li><a href="#" target="_blank" rel="noopener"><img src="../assets/img/footer-facebook.png" alt="facebook"></a></li>
-            <li><a href="#" target="_blank" rel="noopener"><img src="../assets/img/footer-twitter.png" alt="twitter"></a></li>            
-            <li><a href="#" target="_blank" rel="noopener"><img src="../assets/img/footer-youtube.png" alt="youtube"></a></li>
-            <li><a href="#" target="_blank" rel="noopener"><img src="../assets/img/footer-pinterest.png" alt="pinterest"></a></li>
-            <li><a href="#" target="_blank" rel="noopener"><img src="../assets/img/footer-periscope.png" alt="periscope"></a></li>
+            <li><a href="#" target="_blank" rel="noopener"><img src="{{asset('img/footer-facebook.png')}}" alt="facebook"></a></li>
+            <li><a href="#" target="_blank" rel="noopener"><img src="{{asset('img/footer-twitter.png')}}" alt="twitter"></a></li>            
+            <li><a href="#" target="_blank" rel="noopener"><img src="{{asset('img/footer-youtube.png')}}" alt="youtube"></a></li>
+            <li><a href="#" target="_blank" rel="noopener"><img src="{{asset('img/footer-pinterest.png')}}" alt="pinterest"></a></li>
+            <li><a href="#" target="_blank" rel="noopener"><img src="{{asset('img/footer-periscope.png')}}" alt="periscope"></a></li>
         </ul>
     </div>
   </div>
