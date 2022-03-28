@@ -3,5 +3,8 @@
 @section('pageTitle', 'Home')
 
 @section('content')
-    <h1>This is the home page</h1>
+    <img src="{{$thumb}}" alt="product thumbnail">
+    <h1>{{$price}}</h1>
+    <h1>{{$series}}</h1>
+    <h1>{{$type}}</h1>
 @endsection('content')

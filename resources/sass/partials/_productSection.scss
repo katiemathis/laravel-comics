@@ -1,0 +1,106 @@
+* {
+    @include body-rules;
+    text-align: left;
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    position: absolute;
+    height: 700px;
+    background-color: black;
+    padding: 20px 0;
+
+    #top {
+    @include blue-button;
+    position: absolute;
+    left: 250px;
+    top: -40px;
+    font-size: x-small;
+    &:hover {
+      background-color: $colorWhite;
+      }
+
+        a {
+          text-decoration: none;
+          padding: 10px 20px;
+          color: $colorWhite;
+          &:hover {
+            color: #000;
+          }
+        }
+    }
+
+
+    .product-cards-container {
+        @include flex-row-around;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+        width: 60%;
+        margin: auto;
+        
+
+        .product-cards {
+            @include flex-row-around;
+            height: 150px;
+
+            .product-card {
+                @include flex-column;
+                height: 150px;
+                width: 100px;
+                margin: 10px;
+                &:hover {
+                    cursor: pointer;
+                }
+
+                .product-image {
+                    height: 100px;
+                    width: 100px;
+                
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            &:hover {
+                                border: 2px $colorWhite solid;
+                                cursor: pointer;
+                            }
+                        }
+                }
+
+                .product-series {
+                    margin-top: 5px;
+                    padding-top: 5px;
+                    width: 100%;
+                    vertical-align: middle;
+                    text-transform: uppercase;
+                    font-size: xx-small;
+                    
+                }
+
+            }
+
+        }
+
+      
+    }
+    #bottom {
+      @include blue-button;
+      margin-left: 45%;
+      &:hover {
+      background-color: $colorWhite;
+      }
+
+        a {
+          text-decoration: none;
+          padding: 10px 20px;
+          color: $colorWhite;
+          font-size:xx-small;
+          &:hover {
+            color: #000;
+          }
+        }
+      
+    }
+ 
+}
