@@ -1,0 +1,48 @@
+$colorWhite: #fff;
+$colorBlue: #0c69f7;
+$colorGrey: #605f60;
+
+@mixin body-rules {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@mixin show {
+  display: block;
+}
+
+@mixin hide {
+  display: none;
+}
+
+@mixin flex-row-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-row-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin li-menu-horizontal {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  vertical-align: center;
+}
+
+@mixin blue-button {
+  font-weight: 600;
+  background-color: $colorBlue;
+  border: solid 0;
+  margin: 20px 0 10px 0;
+  padding: 10px 20px;
+}
